@@ -1,0 +1,339 @@
+---
+title: ''
+author: ''
+date: ''
+output:
+  pdf_document:
+    keep_tex: yes
+  html_document:
+    css: my-CV.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Dhafer Malouche
+===============
+
+<p align="center">
+*Curriculum Vitae*
+</p>
+
+----
+
+<p align="justify">
+**Status:** Professor at the <a href='http://www.essai.rnu.tn/accueil.htm'> Higher School of Statistics and Information Analysis</a>
+
+**Skills:** <a href='https://www.r-project.org'>`R` Software</a>, <a href='https://www.h2o.ai'>H2O.ai</a>, `Python`, Data Visualization, Big Data, Machine Learning, 
+
+**Interests:** Statistics, Demography, Big Data, Data Analytics, Survey Methodology,  Data Quality,  Graphical Models, Epidemiology, Gender Discrimination. 
+
+</p>
+
+
+
+----
+
+<p align="justify">
+**Summary** Dhafer Malouche obtained a PhD in Statistics and Applied Mathematics from <a href='http://www.univ-tlse3.fr'>Paul Sabatier University</a> in Toulouse, France in October 1997. In September 1998, he obtained an Assistant Professor position at the <a href='http://www.uc.rnu.tn'>University of Sousse</a> in Tunisia. During the 2002-2003 academic year, he was a visiting professor <a href='http://www.yorku.ca/index.html'>York University</a> in Toronto. In 2003, he returned to Tunisia and served as Assistant Professor at the new Engineering School of Statistics in Tunisia, called the  <a href='http://www.essai.rnu.tn/accueil.htm'>Higher School of Statistics and Information Analysis</a>, becoming an Associate Professor in 2011 and Professor in 2018. He is now teaching several courses on Data Analysis (Bayesian Statistics, Data Mining, Regression Models, Times Series, Big Data, advanced `R`). He is supervising numerous projects and doctorate dissertations pertaining to real cases across various topics and has developed many collaborative, multidisciplinary research programs. In 2011, he was a Fulbright Scholar at the Department of Statistics at <a href='https://statistics.stanford.edu'>Stanford University</a>. Since 2012, he has worked with political science scholars on the democratic transition in Tunisia. He has implemented three national surveys in Tunisia about the political transition and local governance (November 2012, Juin 2014 and March 2015). In 2014-2015, he worked in the <a href='http://gld.gu.se'>Governance Local Development Program</a> of <a href='https://www.gu.se/english'>Gothenburg University</a>. He was invited to join the <a href='https://macmillan.yale.edu'>MacMillan Center</a> at <a href='http://www.yale.edu'>Yale University</a> as a visiting professor. In 2016-2017, Dhafer served as a Fulbright Visiting Scholar at the <a href='https://www.isr.umich.edu/cps/'>Center for Political Studies</a> of the  <a href='http://home.isr.umich.edu'>Institute for Social Research</a> at the <a href='http://umich.edu'>University of Michigan</a>.
+</p>
+
+----
+
+
+
+Education
+---------
+
+<p align="justify">
+
+September 2009
+:   **Habilitation**; <a href='http://www.enit.rnu.tn/fr/home/indexfr.php'>Ecole National d'Ingenieurs de Tunis</a>,  <a href='http://www.utm.rnu.tn/utm/fr/'>University Tunis El Manar</a> 
+
+    *Thesis Title: Problèmes autour des probabilités et de la statistique: Méthodes  et Applications (Probability and Statistics Problems: Methods and Applications)*.
+    
+
+09/1994-10/1998
+:   **PhD Statistics**; <a href='http://www.univ-tlse3.fr'>Paul Sabatier University</a>
+
+    *Thesis Title: Natural Exponential Families Associated to Pick Functions*
+    
+
+09/1993-06/1994
+:   **Master Degree Applied Mathematics**; <a href='http://www.univ-tlse3.fr'>Paul Sabatier University</a>
+
+    *Thesis Title: Classification of Natural Exponential families having a function variance
+$Q(m)\sqrt{\Delta(m)}$*
+
+09/1989-06/1993
+:   **Major in Mathematics** (*Maitrise de Mathématiques*), Ecole Normale de Bizerte, Tunisia
+
+</p>
+
+Experience
+----------
+
+<p align="justify">
+
+**Since 09/2003, Professor, Associate Professor and Assistant Professor in Statistics.**
+
+* Location:  <a href='http://www.essai.rnu.tn/accueil.htm'>Higher School of Statistics and Information Analysis</a>.
+
+* Teaching: Times Series, Data Mining, Bayesian Statistics, Machine Learning and Big Data.
+
+* Research: at the Unit of Research MASE (Modélisation et Analyse Statistique et Economique).
+
+* *Notes* I started this position as Assistant Professor and I became an Associate Professor in  01/2011 and Professor in 09/2018. 
+
+**2016-2017, Visiting Fulbright Scholar.**
+
+* Location: <a href='https://www.isr.umich.edu/cps/'>Center for Political Studies</a> of the  <a href='http://home.isr.umich.edu'>Institute for Social Research</a> at the <a href='http://umich.edu'>University of Michigan</a>.
+
+* Activity: Working on Data Quality, Survey Methodology, Interviewer Effect.
+
+**01/2014-09/2014, Visiting Professor**
+
+* Location: <a href='https://macmillan.yale.edu'>MacMillan Center</a> at <a href='http://www.yale.edu'>Yale University</a>
+
+* Activity: Preparing two National level surveys that had been implemented in Tunisia in 06/2014 and in 03/2015. The first one was about the Political Transition  in Tunisia and the second one was on <a href='http://gld.gu.se/en/research-projects/tunisia/'>Governance and Local Developement (GLD)</a>
+
+**05/12 and 05/13, Visiting Associate-Professor**
+
+* Location: Univerisity of Lille, France.
+
+* Activity: Research on Graphical models with penalty criteria. 
+
+
+**05/11-07/11, Visiting Fulbright Scholar.**
+
+* Location: <a href='https://statistics.stanford.edu'>Department of Statistics</a>, Stanford University,
+
+
+* Activity: Research on Graphical Models and Bayesian Networks.
+
+
+**09/2002-07/2003, Visiting Professor.**
+
+* Location: <a href='http://www.yorku.ca/index.html'>York University</a> in Toronto. 
+* Teaching: Regression models with SAS, Introduction to the Theory of Probability, Introduction of Statistics. 
+
+
+* Research:  Graphical Models and MCMC methods.
+
+**1997-1998, Post-doctoral fellow**
+
+* Location: <a href='http://www.univ-tlse3.fr'>Paul Sabatier University</a>
+
+* Teaching:  Introduction to the Theory of Probability
+
+* Research: Markov chains, Pick function
+
+</p>
+
+Papers
+-------
+
+<p align="justify">
+
+* Ibtihel Rebhi and **Dhafer Malouche**, Decision Making about Products Development through Consumer Preferences Modeling Based on Descriptive Characteristics of Products, <a href='http://ieeexplore.ieee.org/document/8308317/'>2017 IEEE/ACS 14th International Conference on Computer Systems and Applications (AICCSA), 30 Oct.-3 Nov. 2017</a>
+
+*  Ibtihel Rebhi and **Dhafer Malouche**,  An Approach for External Preference Mapping Improvement by Denoising Consumer Rating Data, <a href='http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=66'>Article Published in International Journal of Advanced Computer Science and Applications(IJACSA), Volume 8 Issue 12, 2017</a>.
+
+
+* Khouloud Talmoudi, Hedia Bellali, Nissaf Ben-Alaya, Marc Saez,  **Dhafer Malouche**, Mohamed Kouni Chahed, Comparative Performance Analysis for Generalized
+Additive and Generalized Linear Modeling in
+Epidemiology,<a href='http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=ijacsa&SerialNo=55'> (IJACSA) International Journal of Advanced Computer Science and Applications, Vol. 8, No. 12, 2017</a>. 
+
+* Khouloud Talmoudi, Hedia Bellali,  Nissaf Ben-Alaya, Marc Saez, **Dhafer Malouche**, Mohamed Kouni Chahed, <a href='https://doi.org/
+10.1371/journal.pntd.0005844'>Modeling zoonotic cutaneous leishmaniasis incidence in central Tunisia from 2009-2015 Forecasting models using climate variables as predictors</a>, PLoS Negl Trop Dis, 11,(8) 2017
+
+
+* L. J. Benstead, K. Kao, P. F. Landry, E. M. Lust, **D. Malouche**, <a href='http://www.surveypractice.org/index.php/SurveyPractice/article/view/369'>Using Tablet Computers to Implement Surveys in Challenging Environments</a>, Survey Practice, Vol. 10, no 3, 2017.
+
+* H. Zmerli-Triki, M. Laabir ,C. Lafabrie, **D. Malouche**, C. Bancon-Montigny, C. Gonzalez, A. Deidun, O. Pringault, O. Kéfi Daly-Yahiaa, <a href='https://www.ncbi.nlm.nih.gov/pubmed/28391143'>Do the levels of industrial pollutants influence the distribution and abundance of dinoflagellate cysts in the recently-deposited sediment of a Mediterranean coastal ecosystem</a>, Science of The Total Environment, Volume 595, 1 October 2017, Pages 380–392, Available online 6 April 2017.
+
+* O. Saidi, **D. Malouche**, M. O'Flaherty, N Ben Mansour, H. A. Skhiri, H. Ben Romdhane, L. Bezdah1, <a href='http://bmjopen.bmj.com/content/6/11/e009195.short'>Assessment of cardiovascular risk in Tunisia: applying the Framingham risk score to national survey data</a>, Cardiovescular medecine, Volume 6, Issue 11, Published: 30 November 2016.
+
+* S. Aouinti, V. Giudicelli, P. Duroux, **D. Malouche**, S. Kossida, M.P. Lefranc, <a href='http://journal.frontiersin.org/article/10.3389/fimmu.2016.00339'> 
+IMGT/StatClonotype for pairwise evaluation and visualization of NGS IG and TR IMGT clonotype (AA) diversity or expression from IMGT/HighV-QUEST</a>, Frontiers in Immunology, Volume 7, 339, 2016.
+
+
+
+* N. Kerfai, B. Bejar Ghadhab, **D. Malouche**, <a href='http://www.emeraldinsight.com/doi/abs/10.1108/TQM-10-2013-0119'>Performance measurement and quality costing in Tunisian manufacturing companies</a>, The TQM Journal, Volume 28-4, 588-596, Published 2016/6/13.
+
+
+* S. Aouinti, **D. Malouche**, V. Giudicelli, S. Kossida, M.-P. Lefranc, <a href='http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0142353'>IMGT/HighV-QUEST Statistical Significance of IMGT Clonotype (AA) Diversity per Gene for Standardized Comparisons of Next Generation Sequencing Immunoprofiles of Immunoglobulins and T Cell Receptors</a>, PloS one 10, (11), Published: November 5, 2015. 
+
+* G. Sallemi, Z. Ben Azzouz, **D. Malouche**, <a href='http://ieeexplore.ieee.org/document/7761572/'>The Volume Radius Function: A new descriptor for the segmentation of volumetric medical images</a>, Published in: Image and Vision Computing New Zealand (IVCNZ), 2015, 23-24 Nov. 2015 International Conference on Image and Vision Computing New Zealand.
+
+* O. Saidi, O. Martin, N. B Mansour, W. Aissi, O. Lassoued, S. Capewell, J. A Critchley, **D. Malouche**, H. B Romdhane, <a href='http://www.biomedcentral.com/1471-2458/15/104/'>Forecasting Tunisian type 2 diabetes prevalence to 2027: validation of a simple model</a>, BMC Public Health, 15:104, 2015. 
+
+* K. Ben Hassine, A. Taamalli, M. Ben Slama, K. Talmoudi, A. Kiristakis, C. Benincasa, E. Perri, **D. Malouche*, M. Hammami, S. Bornaz, N. Grati Kammoun, <a href='http://onlinelibrary.wiley.com/doi/10.1002/ejlt.201400049/abstract'>Characterization and preference mapping of autochthonous and introduced olive oil cultivars in Tunisia</a>, European Journal of Lipid Science and Technology, 117, 1, 112-121, 2015.
+
+
+
+
+
+* M. Karaouda, N. Bouafif, **D. Malouche**, <a href='http://www.sciencedirect.com/science/article/pii/S0398762014005069'>Les effets de la température sur la mortalité chez les personnes âgées en Tunisie</a>, Revue d'Épidémiologie et de Santé Publique, Volume 62, Supplement 5, September 2014, Pages S219-S220. 
+
+
+* M. Karaouda, **D. Malouche**,N. Bouafif, <a href='http://www.sciencedirect.com/science/article/pii/S0398762014005008'>Mortalité et température journalière en Tunisie : une étude multi-région</a>, Revue d'Épidémiologie et de Santé Publique, Volume 62, Supplement 5, September 2014, Pages S218.
+
+
+
+* M. Karaouda, N. Bouafif, **D. Malouche**, C. Kounic, N. Achour, <a href='http://www.sciencedirect.com/science/article/pii/S0398762014002430'>La mortalité parmi les enfants âgés de moins de 15 ans en Tunisie peut être liée à la température</a>, Revue d'Épidémiologie et de Santé Publique, Volume 62, Supplement 4, August 2014, Pages S122. 
+
+
+* M. Karaouda, **D. Malouche**, N. Bouafif, <a href='http://www.sciencedirect.com/science/article/pii/S0398762014002880'>Méthodologie de l’analyse de la relation température mortalité en Tunisie</a>, Revue d'Épidémiologie et de Santé Publique, Volume 62, Supplement 5, August 2014, Pages S141–S142.
+
+
+* H. Zmerli Triki, O. Kéfi Daly-Yahia, **D. Malouche**, Y. Komiha, A. Deidun, M. Brahim, <a href='http://alandeidun.webs.com/Papers/published Marine Pollution Bulletin paper.pdf'>Distribution of resting cysts of the potentially toxic dinoflagellate Alexandrium pseudogonyaulax in recently-deposited sediment within Bizerte Lagoon (Mediterranean coast, Tunisia)</a>, Marine Pollution Bulletin, (84), Issues 1–2, 15, Pages 172–181, 2014.
+
+* K. Ben Hassine, M. El Riachy, A. Taamalli, **D. Malouche**, M. Ayadi, K. Talmoudi, M. Aouini, Y. Jlassi, C. Benincasa, E. Romano, E. Perri, A. Kiristakis, M. Hamdi, N. Grati Kammoun, M. Hammami, <a href='http://onlinelibrary.wiley.com/doi/10.1002/ejlt.201300254/abstract?userIsAuthenticated=false&deniedAccessCustomisedMessage='>Consumer discrimination of Chemlali and Arbequina olive oil cultivars according to their cultivar, geographical origin, and processing system</a>, European Journal of Lipid Science and Technology, 116, 7, 812-824, 2014.
+
+* K Ghribi, S Sevestre, Z Guessoum, J Gil-Quijano, **D Malouche**, A Youssef, <a href='http://ieeexplore.ieee.org/abstract/document/7077030/'> A survey on multi-agent management approaches in the context of intelligent energy systems</a>, Published in:2014 International Conference on Electrical Sciences and Technologies in Maghreb (CISTEM), 3-6 Nov. 2014. 
+
+
+* K. Ben-Hassine, A. Taamalli, S. Ferchichi, A. Mlaouah, C. Benincasa, E. Romano, G. Flamini, A. Lazzez, N. Grati-Kamoun, E. Perri, **D. Malouche**, M. Hammami, <a href='http://www.sciencedirect.com/science/article/pii/S0963996913004948'>Physicochemical and sensory characteristics of virgin olive oils in relation to cultivar, extraction system and storage conditions</a>, Food Research International, 54, 2, 1915-1925, 2013.
+
+* S. Aouinti, H. Mallek, **D Malouche**, O. Saidi, O. Lassouedi, F. Hentati, <a href='http://ieeexplore.ieee.org/abstract/document/6506162/'> Graphical interaction models to extract predictive risk factors of the cost of managing stroke in Tunisia</a>. Published in: 2013 International Conference on Computer Medical Applications (ICCMA), 20-22 Jan. 2013.
+
+
+* L. Benstead, E. Lust, **D. Malouche**, G. Soltan, <a href='https://www.foreignaffairs.com/articles/tunisia/2013-02-14/islamists-arent-obstacle'>Islamists Aren’t the Obstacle</a>, Foreign Affairs, 14, Feb  2013.
+
+* L. Benstead, E. Lust, **D. Malouche**, G. Soltan, J. Wichmann, <a href='http://yaleglobal.yale.edu/content/winners-and-losers-after-arab-spring'>Winners and Losers After Arab Spring</a>, Yale Global, 2013.
+
+
+* R. Fehri, H. Rifi, A. Alboueiri, **D. Malouche**, M. Ayadi, H. Rais, A. Mezlini, <a href='http://europepmc.org/abstract/med/23588636'>Carcinoma of unknown primary: retrospective study of 437 patients treated at Salah Azaiez Institute</a>, La Tunisie medicale, 91, 3, 205-208, 2013.
+
+
+* **D. Malouche**, B. Rajaratnam, <a href='http://www.hindawi.com/journals/jps/2011/152942/abs/'>Gaussian covariance faithful markov trees</a>, Journal of Probability and Statistics, Article ID 152942, 10 pages, 2011.
+
+
+* I. Arfa, S. Nouira, A. Abid, N. Bouafif-Ben, M. M. Zorgati, **D. Malouche**, I. Manai, R. MC Ben, S. Blousa-Chabchoub, H. BenRomdhane, M. Ben Ammar, A. Ben Salah, S. Abdelhak, <a href='http://europepmc.org/abstract/med/20415212'>Lack of association between renin-angiotensin system (RAS) polymorphisms and hypertension in Tunisian type 2 diabetics</a>. Europ PubMed Central, 88, 1,38-41, 2010. 
+
+* **D.  Malouche**, <a href='http://projecteuclid.org/euclid.bj/1262962231'>Determining full conditional independence by low-order conditioning</a>, Bernoulli, 15, 4, 1179-1189, 2009.
+
+* A. Ghouila, S. Ben Yahiab, **D. Malouche**, H. Jmel, D. Laouini,F. Z. Guerfali,  S. Abdelhak, <a href='http://www.sciencedirect.com/science/article/pii/S1567134808001822'>Application of Multi-SOM clustering approach to macrophage gene expression analysis</a>,Infection Genetics and  evolution, 9, 3, 2009.
+
+
+* **D. Malouche**, <a href='http://www.tandfonline.com/doi/abs/10.1080/03610920802455019'>Mixed Graphical Model Selection Using Holm's Procedure</a>, Communications in Statistics-Theory and Methods, 38, 9, 1453-1464, 2009.
+
+
+* C. C Kokonendji, **D. Malouche**, <a href='http://www.tandfonline.com/doi/abs/10.1080/03610920701809266'>A property of count distributions in the Hinde Demetrio family</a>, Communications in Statistics Theory and Methods, 37, 12, 1823-1834, 2008.
+
+* **D Malouche**, S Sevestre-Ghalila, <a href='http://www.actapress.com/PaperInfo.aspx?PaperID=32269&reason=500'>Estimating high dimensional faithful gaussian graphical models by low-order conditioning</a>, Proceeding, of 26th IASTED, 
+Artificial Intelligence and Applications (AIA 2008)
+February 11 – 13, 2008,  
+Innsbruck, Austria
+
+* I. Arfa, A. Abid, **D. Malouche**, N. Ben Alaya, T. R. Azegue, I. Mannai, M. M. Zorgati, M. C. Ben Rayana, S. Ben Ammar, S. Blousa-Chabchoub, H. Ben Romdhane, B. Zouari, M. Koussay Dellagi, S. Abdelhak, <a href='http://pmj.bmj.com/content/83/979/348.short'>Familial aggregation and excess maternal transmission of type 2 diabetes in Tunisia</a>, Postgraduate medical journal, 83, 979, 348-351, 2007.
+
+
+* G. Letac, **D. Malouche**, Stefan Maurer, <a href='http://www.ams.org/journals/proc/2002-130-07/S0002-9939-02-05352-2/'>The real powers of the convolution of a negative binomial distribution and a Bernoulli distribution</a>, Proceedings of the American Mathematical Societym 130, 7, 2107-2114, 2002.
+
+
+
+
+* G. Letac, **D. Malouche**, <a href='http://link.springer.com/article/10.1007/PL00008750'>The Markov chain associated to a Pick function</a>, Probability theory and related fields, 118, 4, 439-454, 2000.
+
+
+
+* **D. Malouche**, <a href='http://link.springer.com/article/10.1007/BF02565120'>Natural exponential families associated to Pick functions</a>, TEST, 7, 2, 391-412, 1998.
+
+
+
+
+
+
+* **D. Malouche**, <a href='http://www.sciencedirect.com/science/article/pii/S0764444297890994'>L'action quadratique du groupe des homographies sur les familles exponentielles réelles</a>,  Comptes Rendus de l'Académie des Sciences-Series I-Mathematics, 325, 9, 1029-1032, 1997.
+
+</p>
+
+International Conferences
+-------------------------
+
+<p align="justify">
+
+* I. Rebhi, D. Malouche, <a href='http://www.aiccsa.net/AICCSA2017/images/final-detailed-program-17102017.pdf'>Decision Making about Products Development through  Consumer Preferences Modeling Based on Descriptive Characteristics of Products</a>,  International Conference on Computer Systems and Applications Hammamet 2017
+
+*  I. Rebhi, D. Malouche, <a href='http://erum.ue.poznan.pl'>SensMap `R` package for sensory and consumer data mapping</a>, European R Users Meeting Pologne 2016
+
+* Hela JEDDI,  Dhafer MALOUCHE, <a href='https://www.amse-aixmarseille.fr/sites/default/files/_evenements/ceafe-program-v160331.pdf'>La discrimination salariale de genre en Tunisie, Studying wage gap between men and women in Tunisia
+using Oaxaca-Blinder models</a>, The Sixth Euro-African Conference in Finance and Economics, Marseille, France 31/03/2016.
+
+
+
+
+*  Lindsay J. Benstead and Dhafer Malouche, Interviewer Religiosity and Polling in Transitional
+Tunisia, Midwest Political Science Association, 73rd Annual Conference, April 16 - April 19, 2015, Chicago, USA
+
+*  Lindsay Benstead, Pierre Landry, Ellen Lust, Dhafer Malouche. GLD-Tunisia Local Governance Performance Index, Yale program on governance and local development, 2nd Annual Conference, Service Provision in a Changing Arab World, Yale University, April 2015
+
+*  H. Bahri, R. Ghozi, Z. Bornaz, Y. Arfa, D. Malouche, Evaluation de l'anxiété pré-compétitive
+et identification de ses états à partir de l'activité électro-dermale, MSDM, Hammamet, 12 Mars 2015
+
+* Khawla Ghribi, Sylvie S. Ghalila, Zahia Guessoum, Javier Gil-Quijano, Dhafer Malouche, A
+Survey on Multi-agent Management Approaches in the Context of Intelligent Energy Systems, CISTEM, 2014
+
+* D. Malouche, En-Nahdha and Nidaa Touness: the next duel, Workshop on the "Religious
+Political Movements: The Muslim Brotherhood", IPI , Vienna, October 19-20th, 2014
+
+*  M. Karouad, N. Bouafi, D. Malouche, Les effets de la température sur la mortalité chez les
+personnes âgées en Tunisie, VIème Congrès international ADELF-EPITER, Septembre 2014, Nice, France
+
+*  M. Karouad, D. Malouche, N. Bouafi, Mortalité et température journalière en Tunisie: une
+étude multi région, VIème Congrès international ADELF-EPITER, Septembre 2014, Nice, France
+
+* S. Aouinti, D. Malouche, M.P. Lefranc, Analyse statistique des propriétés physico-chimiques
+des acides aminés des régions hyper-variables des anticorps, 46ième JDS, Juin, 2014.
+
+*  H. Bahri, R. Ghozi, F. Hussein, D. Malouche, Identification et caractérisation des états de stress par une segmentation probabiliste des signaux de l'activité éléctrodermale, 46ième JDS, Juin, 2014.
+
+*  M. Karouad, N. Bouafi, D. Malouche, Modélisation de la relation température-mortalité en Tunisie, 46ième JDS, Juin, 2014.
+
+
+* I. Rebhi, D.Malouche « Stabiliser des cartographies de préférences par débruitage des données d’appréciation », Journées des Statistique, Rennes, France, Juin 2014, Proceeding Journées des Statistique,  Société Française de Statistique, p 60.
+
+
+*  M. Karaoud, D. Malouche, N. Bouafif, Méthodologie de l'analyse de la relation Température-Mortalité en Tunisie, 8ème Conférence Francophone d’Épidémiologie Clinique (EPICLIN) et les 21èmes journées des statisticiens de Centre de Lutte Contre le Cancer (CLCC) co-organisés
+par l'Association des Épidémiologies de Langue Française (ADELF) et par le Réseau Français des Unités d'Essais Cliniques (RFUEC), , Bordeaux, France, 14, 15 et 16 mai 2014
+
+*  K. Ben Hassine, I. Rebhi, A. Taamali, N. Grati Kamoun, M. Hammami, D. Malouche, F. Husson, Study of consumer preferences of extra virgin olive oils in tunisia, relationship with
+physicochemical and sensory characteristics, AgroStat, March-2014, Rabat, Maroc
+
+*  L. Benstead, E. Lust, D. Malouche, G. Soltan, and J. Wichmann, Who voted and why? an analysis of old and new voters in Tunisia, CSID Conference, Democratic Transitions in the Arab World, March 29, 2013, Tunis.
+
+*  L. Benstead, E. Lust and D. Malouche, Implication of Civil Society in the Transition process in Tunisia, CSID Conference, Democratic Transitions in the Arab World, March 29, 2013, Tunis.
+
+*  D. Malouche and B. Rajaratnam, Pseudographoid and the covariance global Markov property, 44ièmes journées de la statistique, Bruxelles, 2012.
+
+*  D. Malouche, H. Ouaili-Malek, H. Ben Romdhane, Un modèle multifactoriel pour l'explication de la violence verbale à l'égard de la femme mariée, 44ièmes journées de la statistique, Bruxelles, 2012.
+
+* O. Saidi, L. Chaouech, D. Malouche, O. Lasoued, H. Ben Romdhane Facteurs explicatifs du cout direct médical du Syndrome Coronarien Aigu en Tunisie, 44ièmes journées de la statistique, Bruxelles, 2012.
+
+*  B. Bejar Ghadhab, N. Kerfai and D. Malouche, Les facteurs clés pour la mise en place d'un système de cout relatifs à la qualité : cas des industries en Tunisie, 2ième congrés transatlantique
+de comptabilité, contr^ole, audit et gestion des co^uts dans la globalisation et la normalisation, Lyon, France, June 2010
+
+* D. Malouche, B. Rajaratnam. Gaussian Markov Trees. Communication dans les 42ièmes Journées de Statistique, SFdS, Marseille, 2010.
+
+*  D. Malouche, B. Rajaratnam. Duality between faithfulness assumptions in Graphical models. Communication dans les 41ièmes Journées de Statistique, SFdS, Bordeaux, 2009.
+
+*  R. Bengrich, D. Malouche, S. Sevestre-Ghalila. Modèle graphique ou champ Markovien Gaussien en image : estimation du graphe de voisinage. Dans 41ièmes Journées de Statistique, SFdS, Bordeaux, 2009.
+
+* M. Djebali M., D. Malouche, S. Sevestre-Ghalila. Classification cas ostéoporotique - témoin par Modélisation Graphique. Communication dans les 41ièmes Journées de Statistique, SFdS, Bordeaux, 2009.
+
+* A. Ghouila S. Ben Yahia, D. Malouche, H. Jmel and S. Abdelhak, Combining unsupervised classification techniques with Gene Ontology tools for transcriptome analysis., Ecol'IA, 1-12, 2008.
+
+*  A. Ghouila, S. Ben yahia, D. Malouche, H. Jmel et S. Abdelhak, Utilisation des techniques d'apprentissage non supervisée pour l'analyse des données de transcriptome,, Journées Scientifiques en Bio-informatique, JSB- Maroc, Janvier 2007.
+
+*  A. Gouila, S. Ben Yahia, D. Malouche, S. Abdelha, Multi-SOM: A novel clustering approach for gene expression analysis. Cap, Plate-Forme AFIA, Grenoble, 2007.
+
+</p>
+
+----
+
+>  *email:* <dhafer@dhafermalouche.net>  or <dhafer.malouche@yale.edu> \
+>  *website:* <a href='http://dhafermalouche.net'>http://dhafermalouche.net</a>\
+>  <a href='https://scholar.google.com/citations?hl=fr&user=ntyLiy8AAAAJ&cstart=20&view_op=list_works'>Google Scholar Page</a> 
