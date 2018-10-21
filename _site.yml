@@ -1,0 +1,20 @@
+name: "Dhafer Malouche"
+output_dir: "."
+navbar:
+  title: "Dhafer Malouche"
+  left:
+    - text: "My CV"
+      href: dhafermalouche_cvOct2018.html
+    - text: "Teaching"
+      href: talks.html
+    - text: "Tutorials"
+      href: tuto.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/malouche
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
