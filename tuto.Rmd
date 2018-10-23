@@ -14,3 +14,11 @@ output:
 
 
 Under construction!
+
+
+## Bayesian Statistics
+
+## R codes
+
+## Python codes
+
