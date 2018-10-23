@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+I'd love to hear from you, so feel free to reach out:
+
+Ecole Supérieure de la Statistique et de l'Analyse de l'Information<br>
+6 Rue des métiers<br>
+Charguia II, BP 675<br>
+1080 Tunis<br>
+dhafer.malouche@yale.edu<br>
+
+
+Or connect with me on GitHub, facebook, or Linkedin (links in top right).

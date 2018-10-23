@@ -1,0 +1,15 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/dhafer.png" style="width:25%; border:1px solid; margin-right: 20px" align="left">
+
+I'm Dhafer Malouche, I'm a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I'm teaching at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series.
+
+I like using `R` a lot and  Python for Data Analysis and Exploring patterns. `H2O` and `Spark` are  my preferred machine and deep learning softwares for data analysis. 
+
+You will find in this website several tutorials on these topics. You can also discover my papers and my  research interests. You can also download   my  `R` packages.   
+
+If you have any comments, questions or suggestions feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
+

@@ -5,15 +5,21 @@ navbar:
   left:
     - text: "My CV"
       href: dhafermalouche_cvOct2018.html
+    - text: "Softwares/Apps"
+      href: apps.html
     - text: "Teaching"
-      href: talks.html
-    - text: "Tutorials"
       href: tuto.html
+    - text: "Talks"
+      href: slides.html
   right:
     - icon: fa-envelope fa-lg
       href: contact.html
     - icon: fa-github fa-lg
       href: http://github.com/malouche
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/dhafer-malouche-b54629b/
+    - icon: fa-facebook fa-lg 
+      href: https://www.facebook.com/dhafer.malouche
 output:
   html_document:
     theme: paper
