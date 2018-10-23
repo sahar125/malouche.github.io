@@ -13,10 +13,23 @@ output:
 </p>
 
 
-Under construction!
+*Under construction!*
 
 
 ## Bayesian Statistics
+
++ [First Steps with OpenBUGS](BayesianStatistics/OpenBUGS_Kaggle.html)
++ [R tools for Bayesian Statistics](BayesianStatistics/SB_packages_Kaggle.html)
++ [Metropolis Hasting Algorithm](BayesianStatistics/MH_algorithm.html)
++ Gibbs Sampler
+      + [Gibbs sampler with R](BayesianStatistics/Gibbs_sampler.html)
+      + [Sampling Multivariate Gaussian distribution with a Gibbs Sampler](BayesianStatistics/example_gibbs.html)
++ [Two-Sample Problem with OpenBUGS: Comparing means](BayesianStatistics/comparing_means_gauss.html)
++ Change Point Problem
+     + [Poisson model](BayesianStatistics/change_point.html)
+     + [Comapring three models](BayesianStatistics/comparing_change_point.html)
++ [Bayesian Model with RStan](BayesianStatistics/running_rstan.html)
++ [Seacows Example](BayesianStatistics/seacows_example.html)
 
 ## R codes
 
