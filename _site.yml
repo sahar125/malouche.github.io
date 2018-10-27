@@ -11,6 +11,8 @@ navbar:
     menu: 
       - text: Bayesian Statistics
         href: https://malouche.github.io/bayesianstatistics/index.html
+      - text: Python 
+        href: https://malouche.github.io/teachingpython/index.html
   - text: Softwares/Apps
     href: apps.html
   - text: Talks
