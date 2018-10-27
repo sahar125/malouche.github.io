@@ -1,26 +1,36 @@
-name: "Dhafer Malouche"
-output_dir: "."
+name: Dhafer Malouche
+output_dir: '.'
 navbar:
-  title: "Dhafer Malouche"
+  title: Dhafer Malouche
+  type: inverse
   left:
-    - text: "My CV"
-      href: dhafermalouche_cvOct2018.html
-    - text: "Softwares/Apps"
-      href: apps.html
-    - text: "Teaching"
-      href: tuto.html
-    - text: "Talks"
-      href: slides.html
+  - text: Home
+    icon: fa-home
+    href: index.html
+  - text: Teaching
+    menu: 
+      - text: Bayesian Statistics
+        href: https://malouche.github.io/bayesianstatistics/index.html
+  - text: Softwares/Apps
+    href: apps.html
+  - text: Talks
+    href: slides.html
+  - text: My CV
+    href: dhafermalouche_cvOct2018.html
   right:
-    - icon: fa-envelope fa-lg
-      href: contact.html
-    - icon: fa-github fa-lg
-      href: http://github.com/malouche
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/dhafer-malouche-b54629b/
-    - icon: fa-facebook fa-lg 
-      href: https://www.facebook.com/dhafer.malouche
+  - icon: fa-envelope fa-lg
+    href: contact.html
+  - icon: fa-github fa-lg
+    href: http://github.com/malouche
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/dhafer-malouche-b54629b/
+  - icon: fa-facebook fa-lg
+    href: https://www.facebook.com/dhafer.malouche
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: yeti
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
