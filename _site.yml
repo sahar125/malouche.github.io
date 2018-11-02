@@ -13,6 +13,12 @@ navbar:
         href: https://malouche.github.io/bayesianstatistics/index.html
       - text: Python 
         href: https://malouche.github.io/teachingpython/index.html
+      - text: Big Data
+        href: https://malouche.github.io/bigdata2018/
+  - text: R Tips
+    menu:
+      - text: Reports and Slides
+      - href: https://malouche.github.io/ReportsAndSlidesWithR/
   - text: Softwares/Apps
     href: apps.html
   - text: Talks
