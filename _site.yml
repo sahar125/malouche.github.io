@@ -18,7 +18,7 @@ navbar:
   - text: R Tips
     menu:
       - text: Reports and Slides
-      - href: https://malouche.github.io/ReportSlidesWithR/
+      - href: https://malouche.github.io/ReportSlidesWithR/index.html
   - text: Softwares/Apps
     href: apps.html
   - text: Talks
