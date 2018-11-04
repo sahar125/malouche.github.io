@@ -12,13 +12,17 @@ navbar:
       - text: Bayesian Statistics
         href: https://malouche.github.io/BayesianStatistics/index.html
       - text: Python 
+        href: https://malouche.github.io/teachingpython/index.html
       - text: Big Data
       - text: Data Mining (in French)
       - text: Times Series (in French)
   - text: R Tips
     menu:
       - text: Reports and Slides
-      - href: https://malouche.github.io/ReportSlidesWithR/index.html
+        href: https://malouche.github.io/ReportSlidesWithR/index.html
+      - text: Map of Tunisia
+        href: https://malouche.github.io/MapTunisiaWithR/index.html
+      
   - text: Softwares/Apps
     href: apps.html
   - text: Talks
