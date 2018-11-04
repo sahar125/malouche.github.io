@@ -15,3 +15,7 @@ Links and tutorials on my   `R` packages are also available in this website.
 
 If you have any comments, questions or suggestions feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
 
+
+---
+
+

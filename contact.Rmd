@@ -6,7 +6,15 @@ Ecole Supérieure de la Statistique et de l'Analyse de l'Information<br>
 6 Rue des métiers<br>
 Charguia II, BP 675<br>
 1080 Tunis<br>
-dhafer.malouche@yale.edu<br>
+
+You can also email at: dhafer.malouche@yale.edu<br>
 
 
 Or follow me on GitHub, facebook, or Linkedin (links in top right).
+
+
+<p>You can also <a href="mailto:dhafer.malouche@yale.edu?subject=Hello!">email me</a>. I love meeting new people so don't hesitate to send a message!</p>
+<p>My fulltime job is Professor in Statistics.   I use a lot R, Python  and Shiny for my teaching and research projects. So feel free to get in touch if you want to discuss potential projects, your Statistical modeling  needs, or Shiny apps.</p>
+<p>If you'd like to set up a meeting with me, <a href="https://calendly.com/attalitech/meeting">click here to schedule a meeting</a> based on your availability.</p>
+
+

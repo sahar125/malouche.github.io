@@ -10,11 +10,11 @@ navbar:
   - text: Teaching
     menu: 
       - text: Bayesian Statistics
-        href: https://malouche.github.io/bayesianstatistics/index.html
+        href: https://malouche.github.io/BayesianStatistics/index.html
       - text: Python 
-        href: https://malouche.github.io/teachingpython/index.html
       - text: Big Data
-        href: https://malouche.github.io/bigdata2018/
+      - text: Data Mining (in French)
+      - text: Times Series (in French)
   - text: R Tips
     menu:
       - text: Reports and Slides
