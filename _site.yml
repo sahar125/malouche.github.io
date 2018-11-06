@@ -14,6 +14,7 @@ navbar:
       - text: Python 
         href: https://malouche.github.io/teachingpython/index.html
       - text: Big Data
+        href: https://malouche.github.io/bigdata2018/index.html
       - text: Data Mining (in French)
       - text: Times Series (in French)
   - text: R Tips
