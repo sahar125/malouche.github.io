@@ -5,9 +5,9 @@
 
 <img src="images/dhafer.png" style="width:25%; border:1px solid; margin-right: 20px" align="left">
 
-I'm Dhafer Malouche, I'm a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I'm teaching at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series.
+I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teaching at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series.
 
-I like using a lot `R`  and  Python for  Data Analysis and Exploring patterns. `H2O` and `Spark` are  my preferred softwares dor machine and deep learning to perform big  data analysis. 
+I like using a lot `R`  and  Python for  Data Analysis and Exploring patterns. `H2O` and `Spark` are also  my preferred softwares for machine and deep learning to perform big  data analytics. 
 
 You will find in this website several tutorials about  `R`, Python, Big Data, Machine Learning, all  my published  papers  and you can learn more about my  research interests. 
 
@@ -23,7 +23,7 @@ If you have any comments, questions or suggestions feel free to [contact me](mai
 
 1. Olfa Saidi, Martin O''Flaherty, Nada Zoghlami, Dhafer MALOUCHE, Simon Capewell, Julia Alison Critchley, Piotr Bandosz, Habiba Ben Romdhane and Maria Guzman-Castillo *Comparing strategies to prevent stroke and ischemic heart disease in the Tunisian population: Markov modeling approach using a comprehensive sensitivity analysis algorithm* accepted for publication at the Computational and Mathematical Methods in Medicine.
 
-2. Hajer Khlaifi, Dan Istrate†, Jacques Demongeot‡, Dhafer Malouche *Swallowing Sound Recognition at Home Using GMM* accepted for publication at Innovation and Research in BioMedical Engineering
+2. Hajer Khlaifi, Dan Istrate, Jacques Demongeot, Dhafer Malouche *Swallowing Sound Recognition at Home Using GMM* accepted for publication at Innovation and Research in BioMedical Engineering
 
 3. Hela Jeddi and Dhafer Malouche  *Studying wage gap between men and women in Tunisia*, accpeted for publication at the Feminist Economics
 
