@@ -17,8 +17,8 @@ So feel free to [contact me](mailto:dhafer.malouche@yale.edu)
 
 
 ---
-
-
+  
+  
 ## Forthcoming papers
 
 1. Olfa Saidi, Martin O''Flaherty, Nada Zoghlami, Dhafer MALOUCHE, Simon Capewell, Julia Alison Critchley, Piotr Bandosz, Habiba Ben Romdhane and Maria Guzman-Castillo *Comparing strategies to prevent stroke and ischemic heart disease in the Tunisian population: Markov modeling approach using a comprehensive sensitivity analysis algorithm* accepted for publication at the Computational and Mathematical Methods in Medicine.
@@ -41,5 +41,6 @@ Ibtihel Rebhi and Dhafer Malouche,  *An Approach for External Preference Mapping
 ## Most recent Preprint 
 
 Rim Lahmandi-Ayed and Dhafer Malouche, *More  investment in  Research and Development  for better Education in the future?* [pdf](#preprint/BNRDEducation.pdf)
+
 
 
