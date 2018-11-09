@@ -5,15 +5,15 @@
 
 <img src="images/dhafer.png" style="width:25%; border:1px solid; margin-right: 20px" align="left">
 
-I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teaching at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series.
+I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teach at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series. 
 
-I like using a lot `R`  and  Python for  Data Analysis and Exploring patterns. `H2O` and `Spark` are also  my preferred softwares for machine and deep learning to perform big  data analytics. 
+I’m especially interested in machine learning, statistical modelling  and data visualization. I like use `R`, `Python`, `H2O` and `Spark` for  Data Analysis and Exploring patterns. I learn a lot from other people's code and I like share my codes with you. Your feedback, comments and questions are cery welcome. 
 
 You will find in this website several tutorials about  `R`, Python, Big Data, Machine Learning, all  my published  papers  and you can learn more about my  research interests. 
 
-Links and tutorials on my   `R` packages are also available in this website.   
+Links and tutorials on my   `R` packages are also available in this website. This page is still under construction and I'm working hard to make it available soon. I will posting `R` packages when you can perform PCA, MCA Correlation Analysis with a simple Shiny App.    
 
-If you have any comments, questions or suggestions feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
+So feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
 
 
 ---
