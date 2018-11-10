@@ -7,11 +7,11 @@
 
 I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teach at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series. 
 
-I’m especially interested in machine learning, statistical modelling  and data visualization.   I am using every day `R`, `Python`, `H2O` and `Spark`  for my teaching and research. I learn a lot from other people's code. It gave me ideas for my own work and I like sharing  my codes with others. Your feedback, comments and questions are then very welcome. 
+I’m especially interested in machine learning, statistical modelling  and data visualization.   For my work I use every day `R`, `Python`, `H2O` and `Spark`. I will be sharing  then in this website  many `R` and `Python` codes where I show how you can use these softwares to solve  Machine Learning, Statistical Modelling or Data Visualization problems. Your feedback, comments and questions are then very welcome. 
 
-You will find in this website several tutorials about  `R`, Python, Big Data, Machine Learning, all  my published  papers  and you can learn more about my  research interests. 
+You will also find in this website  my CV,  links to my papers on several topics, slides of my talks. I will be soon also publishing my `R` packages. 
 
-Links and tutorials on my   `R` packages are also available in this website. This page is still under construction and I'm working hard to make it available soon. I will posting `R` packages when you can perform PCA, MCA Correlation Analysis with a simple Shiny App.    
+ 
 
 So feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
 
