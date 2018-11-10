@@ -1,9 +1,20 @@
 ---
 ---
 
+
+
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/dhafer.png" style="width:25%; border:1px solid; margin-right: 20px" align="left">
+
+
+<img src="images/dhafer.png" style="float: right; width:15%; border:1px solid; margin-right: 20px" align="left">
+
+
+  
+# {.tabset .tabset-fade .tabset-pills}
+
+## About me
+
 
 I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teach at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series. 
 
@@ -15,11 +26,10 @@ You will also find in this website  my CV,  links to my papers on several topics
 
 So feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
 
-
 ---
-  
-  
-## Forthcoming papers
+
+
+## Forthcoming papers 
 
 1. Olfa Saidi, Martin O''Flaherty, Nada Zoghlami, Dhafer MALOUCHE, Simon Capewell, Julia Alison Critchley, Piotr Bandosz, Habiba Ben Romdhane and Maria Guzman-Castillo *Comparing strategies to prevent stroke and ischemic heart disease in the Tunisian population: Markov modeling approach using a comprehensive sensitivity analysis algorithm* accepted for publication at the Computational and Mathematical Methods in Medicine.
 
@@ -30,17 +40,16 @@ So feel free to [contact me](mailto:dhafer.malouche@yale.edu)
 ---
 
 
-## Most recent published paper
+## Most recent published paper 
 
-Ibtihel Rebhi and Dhafer Malouche,  *An Approach for External Preference Mapping Improvement by Denoising Consumer Rating Data*, Published in [International Journal of Advanced Computer Science and Applications(IJACSA), Volume 8 Issue 12](http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=66'>Article)
++ Ibtihel Rebhi and Dhafer Malouche,  *An Approach for External Preference Mapping Improvement by Denoising Consumer Rating Data*, Published in [International Journal of Advanced Computer Science and Applications(IJACSA), Volume 8 Issue 12](http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=66'>Article)
 
 
 ---
 
 
-## Most recent Preprint 
+## Most recent Preprint  
 
 Rim Lahmandi-Ayed and Dhafer Malouche, *More  investment in  Research and Development  for better Education in the future?* [pdf](#preprint/BNRDEducation.pdf)
-
 
 

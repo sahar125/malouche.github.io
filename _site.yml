@@ -27,7 +27,7 @@ navbar:
         href: https://malouche.github.io/DataVisuWithR/index.html
   - text: Softwares/Apps
     href: apps.html
-  - text: Statistical Dashboards
+  - text: Statistical  Dashboards
     menu:
       - text: Election Municipales Tunisiennes, 2018
         href: Dashboards/munci_res2018.html
