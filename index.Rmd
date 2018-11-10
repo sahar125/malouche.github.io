@@ -18,9 +18,9 @@
 
 I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teach at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series. 
 
-I’m especially interested in machine learning, statistical modelling  and data visualization.   For my work I use every day `R`, `Python`, `H2O` and `Spark`. I will be sharing  then in this website  many `R` and `Python` codes where I show how you can use these softwares to solve  Machine Learning, Statistical Modelling or Data Visualization problems. Your feedback, comments and questions are then very welcome. 
+I’m especially interested in Machine Learning, Statistical Modelling  and Data Visualization.   For my work, I use every day `R`, `Python`, `H2O` and `Spark`. I will be sharing, in this website,  many `R` and `Python` codes where I show how you can use these softwares to solve  Machine Learning, Statistical Modelling or Data Visualization problems. Your feedback, comments and questions are then very welcome. 
 
-You will also find in this website  my CV,  links to my papers on several topics, slides of my talks. I will be soon also publishing my `R` packages. 
+You will also find here  my CV,  links to my papers regarding several topics, slides of my talks and I will be soon  publishing my `R` packages. 
 
  
 
