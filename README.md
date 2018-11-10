@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Welcome to my website 
 
-You can use the [editor on GitHub](https://github.com/malouche/malouche.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I'm Dhafer Malouche, a Professor of Statistics at the [University of Carthage](http://www.ucar.rnu.tn/En/). I  teach at the [*Ecole Supérieure de la Statistique et de l'Analyse de l'Information*](http://www.essai.rnu.tn/accueil.htm)  several data science courses: Big Data, Computing tools for Statistics such as `R` and Python, Bayesian Statistics and Time Series. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I’m especially interested in Machine Learning, Statistical Modelling  and Data Visualization.   For my work, I use every day `R`, `Python`, `H2O` and `Spark`. I will be sharing, in this website,  many `R` and `Python` codes where I show how you can use these softwares to solve  Machine Learning, Statistical Modelling or Data Visualization problems. Your feedback, comments and questions are then very welcome. 
 
-### Markdown
+You will also find here  my CV,  links to my papers regarding several topics, slides of my talks and I will be soon  publishing my `R` packages. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ 
 
-```markdown
-Syntax highlighted code block
+So feel free to [contact me](mailto:dhafer.malouche@yale.edu) 
 
-# Header 1
-## Header 2
-### Header 3
+---
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Forthcoming papers 
 
-**Bold** and _Italic_ and `Code` text
+1. Olfa Saidi, Martin O''Flaherty, Nada Zoghlami, Dhafer MALOUCHE, Simon Capewell, Julia Alison Critchley, Piotr Bandosz, Habiba Ben Romdhane and Maria Guzman-Castillo *Comparing strategies to prevent stroke and ischemic heart disease in the Tunisian population: Markov modeling approach using a comprehensive sensitivity analysis algorithm* accepted for publication at the Computational and Mathematical Methods in Medicine.
 
-[Link](url) and ![Image](src)
-```
+2. Hajer Khlaifi, Dan Istrate, Jacques Demongeot, Dhafer Malouche *Swallowing Sound Recognition at Home Using GMM* accepted for publication at Innovation and Research in BioMedical Engineering
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+3. Hela Jeddi and Dhafer Malouche  *Studying wage gap between men and women in Tunisia*, accpeted for publication at the Feminist Economics
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/malouche/malouche.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Most recent published paper 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
++ Ibtihel Rebhi and Dhafer Malouche,  *An Approach for External Preference Mapping Improvement by Denoising Consumer Rating Data*, Published in [International Journal of Advanced Computer Science and Applications(IJACSA), Volume 8 Issue 12](http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=66'>Article)
+
+
+---
+
+
+## Most recent Preprint  
+
+Rim Lahmandi-Ayed and Dhafer Malouche, *More  investment in  Research and Development  for better Education in the future?* [pdf](#preprint/BNRDEducation.pdf)
+
+
