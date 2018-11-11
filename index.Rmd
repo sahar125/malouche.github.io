@@ -1,12 +1,21 @@
 ---
 ---
 
-<meta property="og:image" content="https://malouche.github.io/netimage.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1024">
-<meta property="og:image:height" content="1024">
+<script>
+<head>
+    <!--FACEBOOK-->
+    <meta property="og:image" content="https://malouche.github.io/netimage.png">
+    <meta property="og:image:type" content="netimage.png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://malouche.github.io"/>
+    <meta property="og:title" content="Dhafer Malouche" />
+    <meta property="og:description" content="My personal website." />
+    <meta name="google-site-verification" content="ah8ze10UddyhgpgPuOEa6dLdLS6d7P4D7ZtVNAiXi4k" />
 
-
+<head>
+</script>
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
