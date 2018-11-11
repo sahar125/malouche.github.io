@@ -32,7 +32,7 @@ navbar:
       - text: Election Municipales Tunisiennes, 2018
         href: Dashboards/munci_res2018.html
   - text: Talks
-    href: slides.html
+    href: https://malouche.github.io/slidesOftalks/index.html
   - text: My CV
     href: dhafermalouche_cvOct2018.html
   right:
