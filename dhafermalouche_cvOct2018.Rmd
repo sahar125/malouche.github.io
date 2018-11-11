@@ -265,6 +265,10 @@ Innsbruck, Austria
 
 <p align="justify">
 
+* R. Lahmandi-Ayed, D. Malouche More Investment  in Research and Development for better education in the future, CEAFE, Beit El Hikma, June 21st, 2018.
+
+* D. Malouche, R the Unsung hero of Big Data, CEAFE, Beit El Hikma, June 21st, 2018.
+
 * I. Rebhi, D. Malouche, <a href='http://www.aiccsa.net/AICCSA2017/images/final-detailed-program-17102017.pdf'>Decision Making about Products Development through  Consumer Preferences Modeling Based on Descriptive Characteristics of Products</a>,  International Conference on Computer Systems and Applications Hammamet 2017
 
 *  I. Rebhi, D. Malouche, <a href='http://erum.ue.poznan.pl'>SensMap `R` package for sensory and consumer data mapping</a>, European R Users Meeting Pologne 2016
