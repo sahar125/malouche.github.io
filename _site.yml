@@ -11,26 +11,18 @@ navbar:
     menu: 
       - text: Bayesian Statistics
         href: https://malouche.github.io/BayesianStatistics/index.html
-      - text: Python 
-        href: https://malouche.github.io/teachingpython/index.html
       - text: Big Data
         href: https://malouche.github.io/bigdata2018/index.html
       - text: Data Mining (in French)
       - text: Times Series (in French)
-  - text: R Tips
+  - text: R/Python Developers 
     menu:
-      - text: Reports and Slides
-        href: https://malouche.github.io/ReportSlidesWithR/index.html
-      - text: Map of Tunisia
-        href: https://malouche.github.io/MapTunisiaWithR/index.html
-      - text: Data Visualization
-        href: https://malouche.github.io/DataVisuWithR/index.html
-  - text: Softwares/Apps
-    href: apps.html
-  - text: Statistical  Dashboards
-    menu:
-      - text: Election Municipales Tunisiennes, 2018
-        href: Dashboards/munci_res2018.html
+      - text: Notebooks
+        href: https://malouche.github.io/notebooks/index.html
+      - text: How to
+        href: https://malouche.github.io/howto/index.html
+      - text: R packages/shiny/Dashboards
+        href: https://malouche.github.io/softAndDash/.
   - text: Talks
     href: https://malouche.github.io/slidesOftalks/index.html
   - text: My CV
