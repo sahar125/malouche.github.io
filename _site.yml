@@ -27,6 +27,10 @@ navbar:
     href: https://malouche.github.io/slidesOftalks/index.html
   - text: My CV
     href: dhafermalouche_cvOct2018.html
+  - text: Data
+    menu:
+      - text: Election Data
+        href: https://malouche.github.io/ElectionData/index.html
   right:
   - icon: fa-envelope fa-lg
     href: contact.html
