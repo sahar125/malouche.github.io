@@ -31,6 +31,8 @@ navbar:
     menu:
       - text: Election Data
         href: https://malouche.github.io/ElectionData/index.html
+      - text: G-Econ Data
+        href: https://malouche.github.io/gecon/index.html
   right:
   - icon: fa-envelope fa-lg
     href: contact.html
