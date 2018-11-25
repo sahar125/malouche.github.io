@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Dhafer Malouche</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Teaching
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://malouche.github.io/BayesianStatistics/index.html">Bayesian Statistics</a>
+    </li>
+    <li>
+      <a href="https://malouche.github.io/bigdata2018/index.html">Big Data</a>
+    </li>
+    <li class="dropdown-header">Data Mining (in French)</li>
+    <li class="dropdown-header">Times Series (in French)</li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    R/Python Developers
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://malouche.github.io/notebooks/index.html">Notebooks</a>
+    </li>
+    <li>
+      <a href="https://malouche.github.io/howto/index.html">How to</a>
+    </li>
+    <li>
+      <a href="https://malouche.github.io/softAndDash/.">R packages/shiny/Dashboards</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://malouche.github.io/slidesOftalks/index.html">Talks</a>
+</li>
+<li>
+  <a href="dhafermalouche_cvOct2018.html">My CV</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Data
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="collect_data.html">Collecting Data</a>
+    </li>
+    <li>
+      <a href="https://malouche.github.io/ElectionData/index.html">Election Data</a>
+    </li>
+    <li>
+      <a href="https://malouche.github.io/gecon/index.html">G-Econ Data</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/malouche">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/dhafer-malouche-b54629b/">
+    <span class="fa fa-linkedin fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.facebook.com/dhafer.malouche">
+    <span class="fa fa-facebook fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<p align="center">
+<font size="+2"><strong>Collecting Data</strong></font>
+</p>
+<div id="httpdataportal.ins.tn" class="section level1">
+<h1><a href="http://dataportal.ins.tn" class="uri">http://dataportal.ins.tn</a></h1>
+<div class="figure">
+<img src="ins_image1.png" width="450" />
+
+</div>
+<ul>
+<li>Step 1</li>
+</ul>
+<p>Click <em>Statistiques &gt; Requêtes des données</em></p>
+<div class="figure">
+<img src="ins_image2.png" width="450" />
+
+</div>
+<ul>
+<li>Step 2</li>
+</ul>
+<p>Click on <em>Sélectionnez base de données</em></p>
+<div class="figure">
+<img src="ins_image3.png" width="450" />
+
+</div>
+<ul>
+<li>Step 3</li>
+</ul>
+<p>Let’s say we’re interested to know the evolution of the number of students in ICT in Tunisia.</p>
+<p>Then you pick the indicator</p>
+<div class="figure">
+<img src="ins_image4.png" width="450" />
+
+</div>
+<ul>
+<li>Step 4</li>
+</ul>
+<p>You pick the region</p>
+<div class="figure">
+<img src="ins_image5.png" width="450" />
+
+</div>
+<ul>
+<li>Step 5</li>
+</ul>
+<p>You pick the years</p>
+<div class="figure">
+<img src="ins_image6.png" width="450" />
+
+</div>
+<ul>
+<li>Step 6</li>
+</ul>
+<p>Click on <em>Contruire une vue des données</em></p>
+<div class="figure">
+<img src="ins_image7.png" width="450" />
+
+</div>
+<ul>
+<li>Step 7</li>
+</ul>
+<p>Click on <em>Voir les résultats</em> and your data is ready to be downloaded</p>
+<div class="figure">
+<img src="ins_image8.png" width="450" />
+
+</div>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/KVG38qw0cTk?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="penn-world-table-httpswww.rug.nl" class="section level1">
+<h1>Penn World Table: <a href="https://www.rug.nl/" class="uri">https://www.rug.nl/</a></h1>
+<p>It is a database with information on relative levels of income, output, input and productivity, covering 182 countries between 1950 and 2014.</p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/XLkfq5M5HSY?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="un-development-index-httphdr.undp.org" class="section level1">
+<h1>UN Development Index: <a href="http://hdr.undp.org/" class="uri">http://hdr.undp.org/</a></h1>
+<p>This website contains several datasets on development indexes as Human Development Index, Gender Development Index, Gender Inequality Index</p>
+<div id="human-development-index" class="section level2">
+<h2>Human Development Index</h2>
+<iframe width="560" height="315" src="http://www.youtube.com/embed//meo_jltNm-k?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="gender-development-index" class="section level2">
+<h2>Gender Development Index</h2>
+<iframe width="560" height="315" src="http://www.youtube.com/embed//p1CmU4ra2UY?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="gender-inequality-index" class="section level2">
+<h2>Gender Inequality Index</h2>
+</div>
+</div>
+<div id="world-development-indicators" class="section level1">
+<h1>World Development Indicators</h1>
+<div id="whats-the-wdi" class="section level2">
+<h2>What’s the WDI?</h2>
+<ul>
+<li><p><a href="https://data.worldbank.org/products/wdi" class="uri">https://data.worldbank.org/products/wdi</a></p></li>
+<li><p><em>The primary World Bank collection of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.</em></p></li>
+</ul>
+</div>
+<div id="how-can-we-collect-data-from-wdi-website" class="section level2">
+<h2>How can we collect data from WDI website?</h2>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/f_B1t4BRQ94?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="microlibrary-data-from-world-open-data" class="section level2">
+<h2>Microlibrary data from World Open Data</h2>
+<p><em>The Microdata Library facilitates access to data collected through sample surveys of households, business establishments or other facilities. These ‘microdata’ sets may also originate from population, housing or agricultural censuses or through an administrative data collection processes. The Library contains supporting documentation from censuses and surveys conducted or supported by the World Bank, as well as by other international organizations, statistical agencies and other agencies in low and middle-income countries.</em></p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/J4uUdkU_K-4?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+</div>
+<div id="the-armed-conflict-location-event-data-httpswww.acleddata.com" class="section level1">
+<h1>The Armed Conflict Location &amp; Event Data: <a href="https://www.acleddata.com/" class="uri">https://www.acleddata.com/</a></h1>
+<p><em>The Armed Conflict Location &amp; Event Data Project (ACLED). collects the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events across Africa, South Asia, South East Asia, the Middle East, Europe, and Latin America. Political violence and protest includes events that occur within civil wars and periods of instability, public protest and regime breakdown. ACLED’s aim is to capture the forms, actors, dates and locations of political violence and protest as it occurs across states. The ACLED team conducts analysis to describe, explore and test conflict scenarios, and makes both data and analysis open to freely use by the public.</em></p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/bHI5tylun48?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="afrobarometer-data-httpafrobarometer.org" class="section level1">
+<h1>Afrobarometer Data: <a href="http://afrobarometer.org" class="uri">http://afrobarometer.org</a></h1>
+<p>This Data is obtained from regular Surveys implemented in almost 36 countries on public attitude on democracy, governance, economic conditions, and related issues.</p>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/B5kclKW2I9U?rel=0" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<div id="g-econ-data-httpsgecon.yale.edu" class="section level1">
+<h1>G-Econ Data: <a href="https://gecon.yale.edu" class="uri">https://gecon.yale.edu</a></h1>
+<p>The G-Econ research project is devoted to developing a geophysically based data set on economic activity for the world. The current data set (GEcon 4.0) is now publicly available and covers “gross cell product” for all regions for 1990, 1995, 2000, and 2005 and includes 27,500 terrestrial observations.</p>
+<p>This data was by Professor William Nordhaus, Yale University and and Professor Xi Chen, Quinnipiac University. Professor William Nordhaus won this year (yesterday) the Nobel Prize in Economic Sciences: <a href="https://news.yale.edu/2018/10/08/yales-william-nordhaus-wins-2018-nobel-prize-economic-sciences?utm_source=YNemail&amp;utm_medium=email&amp;utm_campaign=yn-10-08-18" class="uri">https://news.yale.edu/2018/10/08/yales-william-nordhaus-wins-2018-nobel-prize-economic-sciences?utm_source=YNemail&amp;utm_medium=email&amp;utm_campaign=yn-10-08-18</a></p>
+<p>Here’a an <code>R</code> on how can you extract the data in your computer</p>
+<ol style="list-style-type: decimal">
+<li>You need to extract the names of the countries listed in the G-Econ Data</li>
+</ol>
+<pre class="r"><code>&gt; library(rvest)
+&gt; library(purrr)
+&gt; library(XML)
+&gt; library(RCurl)
+&gt; url&lt;-&quot;https://gecon.yale.edu/country-listing&quot;
+&gt; 
+&gt; doc &lt;- getURL(url)
+&gt; 
+&gt; 
+&gt; html &lt;- htmlTreeParse(doc, useInternal = TRUE)
+&gt; txt &lt;- xpathApply(html, &quot;//body//text()[not(ancestor::script)][not(ancestor::style)][not(ancestor::noscript)]&quot;, xmlValue)
+&gt; txt&lt;-unlist(txt)
+&gt; i=grep(&quot;\n&quot;,txt)
+&gt; txt=txt[-i]
+&gt; txt=txt[-c(1:23)]
+&gt; txt=txt[1:274]
+&gt; txt
+&gt; i=grepl(&quot;^\\s*$&quot;, txt)
+&gt; countries=txt[i==F]
+&gt; 
+&gt; countries</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>We once we have the names of the countries, we will extract the links of every file containing the data</li>
+</ol>
+<pre class="r"><code>&gt; library(stringr)
+&gt; links=vector(&#39;list&#39;,length(countries))
+&gt; zc=gsub(pattern = &quot; &quot;,replacement = &quot;_&quot;,tolower(countries))
+&gt; zc[85]=&quot;uk&quot;
+&gt; zc[86]=&quot;usa&quot;
+&gt; for(i in 1:length(countries)){
++   print(i)
++   u1=paste0(&quot;https://gecon.yale.edu/&quot;,zc[i])
++   d1&lt;- getURL(u1)
++   
++   matched &lt;- str_match_all(d1, &quot;&lt;a href=\&quot;(.*?)\&quot;&quot;)
++   r=grep(&quot;_upload&quot;,matched[[1]])
++   x=gsub(&quot;&lt;a href=\&quot;https://&quot;, &quot;&quot;, matched[[1]][r[1],1])
++   xpath=paste0(&quot;https://&quot;,x)
++   xpath=gsub(pattern = &quot;\&quot;&quot;,replacement = &quot;&quot;,xpath)
++   links[[i]]=xpath
++ }
+&gt; links
+&gt; links[[85]]=&quot;https://gecon.yale.edu/sites/default/files/uk_upload_xi_101509.xls&quot;
+&gt; links[[15]]=&quot;https://gecon.yale.edu/sites/default/files/central_africa_upload_mm_051905_0.xls&quot;
+&gt; links[[86]]=&quot;https://gecon.yale.edu/sites/default/files/upload_us_xi_090110.xls&quot;
+&gt; links[[75]]=&quot;https://gecon.yale.edu/sites/default/files/southafrica_upload_xi_091510.xls&quot;
+&gt; links[[75]]=&quot;https://gecon.yale.edu/sites/default/files/south_korea_upload_qa_061005.xls&quot;
+&gt; links[[21]]=&quot;https://gecon.yale.edu/sites/default/files/czech_republic_upload_xi_101509.xls&quot;
+&gt; links[[76]]=&quot;https://gecon.yale.edu/sites/default/files/south_korea_upload_qa_061005.xls&quot;
+&gt; links[[71]]=&quot;https://gecon.yale.edu/sites/default/files/saudi_arabia_upload_qa_050205_0.xls&quot;
+&gt; links[[64]]=&quot;https://gecon.yale.edu/sites/default/files/papua_new_guinea_upload_qa_061305.xls&quot;
+&gt; links[[44]]=&quot;https://gecon.yale.edu/sites/default/files/lao_pdr_upload_qa_061505_0.xls&quot;
+&gt; links[[61]]=&quot;https://gecon.yale.edu/sites/default/files/north_korea_upload_qa_051905.xls&quot;
+&gt; links[[58]]=&quot;https://gecon.yale.edu/sites/default/files/new_zealand_upload_mm_071805.xls&quot;</code></pre>
+<p>Notice that some links need to be changed because the names of the files are not with the same standards as the other files.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>You need now to doanload all excel files:</li>
+</ol>
+<pre class="r"><code>&gt; for(j in 1:length(links)){
++   u1=links[[j]]
++   download.file(url = u1,destfile = paste0(zc[j],&quot;.xls&quot;))
++ }</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Finaly you can imports all these files into <code>R</code>:</li>
+</ol>
+<pre class="r"><code>&gt; library(readxl)
+&gt; list.files()
+&gt; i=grep(&quot;xls&quot;,list.files())
+&gt; length(i)
+&gt; length(zc)
+&gt; files_xls=list.files()[i]
+&gt; 
+&gt; data_list=vector(&#39;list&#39;,length(zc))
+&gt; for(i in 1:length(zc)){
++   data_list[[i]]&lt;- read_excel(files_xls[i])
++   data_list[[i]]&lt;-data_list[[i]][-1,]
++ }
+&gt; 
+&gt; names(data_list)=zc
+&gt; 
+&gt; for(i in 1:length(zc)){
++   colnames(data_list[[i]])=tolower(colnames(data_list[[i]]))
++ }
+&gt; 
+&gt; library(plyr)
+&gt; 
+&gt; data_all=ldply(data_list)</code></pre>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

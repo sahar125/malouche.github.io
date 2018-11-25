@@ -29,6 +29,8 @@ navbar:
     href: dhafermalouche_cvOct2018.html
   - text: Data
     menu:
+      - text: Collecting Data
+        href: collect_data.html
       - text: Election Data
         href: https://malouche.github.io/ElectionData/index.html
       - text: G-Econ Data
