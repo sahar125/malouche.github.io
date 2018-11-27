@@ -142,7 +142,7 @@ $Q(m)\sqrt{\Delta(m)}$*
 
 * Hajer Khlaifi, Dan Istrate, Jacques Demongeot, **Dhafer Malouche** *Swallowing Sound Recognition at Home Using GMM* accepted for publication at Innovation and Research in BioMedical Engineering, June 2018
 
-*  Hela Jeddi and Dhafer Malouche  *Studying wage gap between men and women in Tunisia*, accpeted for publication at the Feminist Economics, January 2018
+*  Hela Jeddi and **Dhafer Malouche**  *Studying wage gap between men and women in Tunisia*, accpeted for publication at the Feminist Economics, January 2018
 
 
 
@@ -179,7 +179,7 @@ IMGT/StatClonotype for pairwise evaluation and visualization of NGS IG and TR IM
 
 * O. Saidi, O. Martin, N. B Mansour, W. Aissi, O. Lassoued, S. Capewell, J. A Critchley, **D. Malouche**, H. B Romdhane, <a href='http://www.biomedcentral.com/1471-2458/15/104/'>Forecasting Tunisian type 2 diabetes prevalence to 2027: validation of a simple model</a>, BMC Public Health, 15:104, 2015. 
 
-* K. Ben Hassine, A. Taamalli, M. Ben Slama, K. Talmoudi, A. Kiristakis, C. Benincasa, E. Perri, **D. Malouche*, M. Hammami, S. Bornaz, N. Grati Kammoun, <a href='http://onlinelibrary.wiley.com/doi/10.1002/ejlt.201400049/abstract'>Characterization and preference mapping of autochthonous and introduced olive oil cultivars in Tunisia</a>, European Journal of Lipid Science and Technology, 117, 1, 112-121, 2015.
+* K. Ben Hassine, A. Taamalli, M. Ben Slama, K. Talmoudi, A. Kiristakis, C. Benincasa, E. Perri, **D. Malouche**, M. Hammami, S. Bornaz, N. Grati Kammoun, <a href='http://onlinelibrary.wiley.com/doi/10.1002/ejlt.201400049/abstract'>Characterization and preference mapping of autochthonous and introduced olive oil cultivars in Tunisia</a>, European Journal of Lipid Science and Technology, 117, 1, 112-121, 2015.
 
 
 
