@@ -47,7 +47,7 @@ So feel free to [contact me](mailto:dhafer.malouche@yale.edu)
 **Career Paths of UK PhD students **, *[Source: The Scientific Century
 securing our future prosperity, The Royal Society, 2010](https://royalsociety.org/~/media/royal_society_content/policy/publications/2010/4294970126.pdf)*
 
-<iframe src="https://malouche.github.io/Dashboards/h2a.html" height="500" width="100%" frameBorder="0"></iframe>
+<iframe src="https://malouche.github.io/Dashboards/h2a.html" height="600" width="100%" frameBorder="0"></iframe>
 
 
 
