@@ -44,15 +44,17 @@ So feel free to [contact me](mailto:dhafer.malouche@yale.edu)
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmalouche.github.io&width=163&layout=button_count&action=like&size=large&show_faces=true&share=true&height=46&appId=874215545998179" width="163" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 
+
+
+**GDP (Current US$, from 1960 to 2016)**
+<iframe src="https://malouche.github.io/Dashboards/gdp1.html" height="900" width="100%" frameBorder="0"></iframe>
+
+
 **Career Paths of UK PhD students **, *[Source: The Scientific Century
 securing our future prosperity, The Royal Society, 2010](https://royalsociety.org/~/media/royal_society_content/policy/publications/2010/4294970126.pdf)*
 
-<iframe src="https://malouche.github.io/Dashboards/h2a.html" height="600" width="100%" frameBorder="0"></iframe>
+<iframe src="https://malouche.github.io/Dashboards/h2a.html" height="800" width="100%" frameBorder="0"></iframe>
 
-
-
-**Municipal Elections, Tunisia May 2018**
-<iframe src="https://malouche.github.io/Dashboards/municipal2018Tunisia.html" height="500" width="100%" frameBorder="0"></iframe>
 
 
 ---
@@ -67,8 +69,10 @@ securing our future prosperity, The Royal Society, 2010](https://royalsociety.or
 3. Hela Jeddi and Dhafer Malouche  *Studying wage gap between men and women in Tunisia*, accpeted for publication at the Feminist Economics
 
 
-**Daily views in Netflix from 01/2000 to 12/2005**
-<iframe src="https://malouche.github.io/Dashboards/ts_netflix.html" height="500" width="100%" frameBorder="0"></iframe>
+
+**Municipal Elections, Tunisia May 2018**
+<iframe src="https://malouche.github.io/Dashboards/municipal2018Tunisia.html" height="500" width="100%" frameBorder="0"></iframe>
+
 
 
 
@@ -78,6 +82,11 @@ securing our future prosperity, The Royal Society, 2010](https://royalsociety.or
 ## Most recent published paper 
 
 + Ibtihel Rebhi and Dhafer Malouche,  *An Approach for External Preference Mapping Improvement by Denoising Consumer Rating Data*, Published in [International Journal of Advanced Computer Science and Applications(IJACSA), Volume 8 Issue 12](http://thesai.org/Publications/ViewPaper?Volume=8&Issue=12&Code=IJACSA&SerialNo=66'>Article)
+
+**Daily views in Netflix from 01/2000 to 12/2005**
+<iframe src="https://malouche.github.io/Dashboards/ts_netflix.html" height="700" width="100%" frameBorder="0"></iframe>
+
+
 
 
 ---
